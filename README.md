@@ -18,10 +18,17 @@ Requirements: [Node.js](https://nodejs.org/) (LTS) and
    ```sh
    npm install
    ```
-3. Start the develop mode:
-   ```sh
-   npm run dev
-   ```
+
+Dependencies (`package.json`): Electron 44, electron-builder 26. Libraries
+in `sketch/libraries/`: p5.js 1.10.0, p5.sound 1.0.1 (included, not used).
+
+## How to Run
+
+Start the develop mode:
+
+```sh
+npm run dev
+```
 
 `npm run dev` opens the app in a window, with the developer tools in a
 separate window (for `console.log()` output and errors). Saving a file in
@@ -31,9 +38,6 @@ reload, and the display is kept from going to sleep.
 
 Keys: `Escape` quits the app, `Cmd/Ctrl` + `F` toggles fullscreen, `F12`
 toggles the developer tools.
-
-Dependencies (`package.json`): Electron 44, electron-builder 26. Libraries
-in `sketch/libraries/`: p5.js 1.10.0, p5.sound 1.0.1 (included, not used).
 
 ### Building the App
 

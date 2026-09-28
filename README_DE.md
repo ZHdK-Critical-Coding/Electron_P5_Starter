@@ -19,10 +19,18 @@ Voraussetzungen: [Node.js](https://nodejs.org/) (LTS) und
    ```sh
    npm install
    ```
-3. Entwicklungsmodus starten:
-   ```sh
-   npm run dev
-   ```
+
+Abhängigkeiten (`package.json`): Electron 44, electron-builder 26.
+Bibliotheken in `sketch/libraries/`: p5.js 1.10.0, p5.sound 1.0.1
+(eingebunden, nicht verwendet).
+
+## Ausführen
+
+Entwicklungsmodus starten:
+
+```sh
+npm run dev
+```
 
 `npm run dev` öffnet die App in einem Fenster, die Entwicklertools in einem
 eigenen Fenster (für `console.log()`-Ausgaben und Fehler). Beim Speichern
@@ -33,10 +41,6 @@ den Ruhezustand.
 
 Tasten: `Escape` beendet die App, `Cmd/Ctrl` + `F` schaltet Vollbild
 ein/aus, `F12` die Entwicklertools.
-
-Abhängigkeiten (`package.json`): Electron 44, electron-builder 26.
-Bibliotheken in `sketch/libraries/`: p5.js 1.10.0, p5.sound 1.0.1
-(eingebunden, nicht verwendet).
 
 ### App bauen
 
